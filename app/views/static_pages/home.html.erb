@@ -6,4 +6,9 @@
 <br>
 <br>
 <%= link_to "Melde dich jetzt an!", signup_path, class: "btn btn-lg btn-primary" %>
+<br>
+<p>Anzahl der bereits angemeldeten Personen: <%= @count %></p>
+<% @users_name.each do |p| %>
+  <ul><%= p.name %></ul>
+<% end %>
 </div>
