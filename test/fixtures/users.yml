@@ -19,7 +19,7 @@ peter:
   name: Peter Schmitz
   email: peter.schmiz@gmx.de
   password_digest: <%= User.digest('password') %>
-  activated: true
+  activated: false
   activated_at: <%= Time.zone.now %>
 
 lana:
