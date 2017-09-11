@@ -80,6 +80,11 @@ GEM
     erubis (2.7.0)
     excon (0.52.0)
     execjs (2.7.0)
+    factory_girl (4.8.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.8.0)
+      factory_girl (~> 4.8.0)
+      railties (>= 3.0.0)
     faker (1.6.3)
       i18n (~> 0.5)
     ffi (1.9.14)
@@ -387,6 +392,7 @@ DEPENDENCIES
   capybara
   carrierwave (= 0.11.2)
   coffee-rails (= 4.2.1)
+  factory_girl_rails
   faker (= 1.6.3)
   fog (= 1.38.0)
   guard (= 2.13.0)
